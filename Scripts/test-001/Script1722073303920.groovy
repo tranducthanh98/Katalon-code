@@ -17,15 +17,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+'Open browser and navigate to website which will show alert'
+WebUI.openBrowser(GlobalVariable.G_SiteURL)
 
-'Open browser and navigate to demo AUT site'
-WebUI.openBrowser('http://demoaut.katalon.com/')
+'Accept alert when the alert is shown'
+WebUI.acceptAlert()
 
-'Click on \'Make Appointment\' button'
-WebUI.click(findTestObject('Page_CuraAppointment/btn_BookAppointment'))
-
-'Check on \'Medicaid\' checkbox'
-WebUI.check(findTestObject('Page_CuraAppointment/chk_Medicaid'))
-
+'Close browser'
 WebUI.closeBrowser()
 
