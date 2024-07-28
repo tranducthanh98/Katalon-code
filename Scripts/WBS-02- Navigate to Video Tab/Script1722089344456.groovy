@@ -1,4 +1,5 @@
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -16,15 +17,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-'Open browser and navigate to demo AUT site'
-WebUI.openBrowser('')
 
-'Delete all cookies after browser is opened'
-WebUI.deleteAllCookies()
+WebUI.callTestCase(findTestCase("Test Cases/WBS-01_Login"), null)
+WebUI.click(findTestObject("Object Repository/Page_Home  Alarm.com/p_Video"))
 
-'Navigate to demo AUT site'
-WebUI.navigateToUrl('http://demoaut.katalon.com/')
+// verify Video header display
+WebUI.verifyElementPresent(findTestObject("Object Repository/Page_Live Video  Alarm.com/h1_Video"), 0, FailureHandling.STOP_ON_FAILURE)
 
-'Close browser'
-WebUI.closeBrowser()
+
+
+
+
 

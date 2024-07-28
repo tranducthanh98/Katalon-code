@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>navigate to notification page from home page, affter create any notification</description>
+   <name>WBS-03- Create a notification</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>592dcca6-f050-416d-ac4f-04e0c4ce3469</testCaseGuid>
+</TestCaseEntity>

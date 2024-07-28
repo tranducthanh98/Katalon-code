@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Disarm (1)</name>
+   <tag></tag>
+   <elementGuidId>d8c5360f-60ff-4ec5-ade3-f74dfaf1ed11</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.span2 > span.style-checkbox > label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;ctl00_responsiveBody_NotificationEditControl_armingActionsBlock&quot;]/div[2]/div[1]/div/span/label[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;ctl00_responsiveBody_NotificationEditControl_armingActionsBlock&quot;)/div[@class=&quot;row-fluid no-min-height arming-actions-list&quot;]/div[@class=&quot;row-fluid min-height-20&quot;]/div[@class=&quot;span2&quot;]/span[@class=&quot;style-checkbox&quot;]/label[1][count(. | //*[@for = 'ctl00_responsiveBody_NotificationEditControl_chkDisarm' and @ref_element = 'Object Repository/Page_Notification  Alarm.com/iframe_Notifications  Alarm.com has loaded_ember180']) = count(//*[@for = 'ctl00_responsiveBody_NotificationEditControl_chkDisarm' and @ref_element = 'Object Repository/Page_Notification  Alarm.com/iframe_Notifications  Alarm.com has loaded_ember180'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Disarm&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>e3dacef2-e784-4b9c-9fa8-625dbca67045</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>ctl00_responsiveBody_NotificationEditControl_chkDisarm</value>
+      <webElementGuid>1ef07ea5-054b-4bee-ab01-94a62d668041</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Disarm</value>
+      <webElementGuid>7f168cc0-2be0-43cf-82b3-358bf3186510</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ctl00_responsiveBody_NotificationEditControl_armingActionsBlock&quot;)/div[@class=&quot;row-fluid no-min-height arming-actions-list&quot;]/div[@class=&quot;row-fluid min-height-20&quot;]/div[@class=&quot;span2&quot;]/span[@class=&quot;style-checkbox&quot;]/label[1]</value>
+      <webElementGuid>0c67a51c-0fc6-4c21-9c64-1b9e9a4e6391</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Page_Notification  Alarm.com/iframe_Notifications  Alarm.com has loaded_ember180</value>
+      <webElementGuid>fc8319f6-f1d0-453a-a996-dcfd2a756a08</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ctl00_responsiveBody_NotificationEditControl_armingActionsBlock']/div[2]/div/div/span/label</value>
+      <webElementGuid>7c23d7b9-1848-493e-b938-fa9c3bc99e00</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Performs any of these system actions:'])[1]/following::label[1]</value>
+      <webElementGuid>6768ffae-706d-4b40-980b-3b74d8f2c27f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Katherina Arnett'])[1]/following::label[1]</value>
+      <webElementGuid>0d3cd202-4cd6-49bd-b7b3-fcd7e88927c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Arm Stay'])[1]/preceding::label[1]</value>
+      <webElementGuid>eb118c1d-729d-41c9-a131-118788cec180</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Arm Away'])[1]/preceding::label[2]</value>
+      <webElementGuid>c3183907-6c53-4ac0-bc28-363173aa3b22</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Disarm']/parent::*</value>
+      <webElementGuid>f98d2d6d-34f0-42f1-94db-e2bd6c2d0f26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/span/label</value>
+      <webElementGuid>5c9e5beb-412a-4703-aa3b-024f00105ec1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Disarm' or . = 'Disarm')]</value>
+      <webElementGuid>e0cd6f82-f7e6-4474-b554-b4b2db1546df</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

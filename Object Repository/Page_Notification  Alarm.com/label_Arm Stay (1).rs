@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Arm Stay (1)</name>
+   <tag></tag>
+   <elementGuidId>645f7b37-9fc3-493d-b86f-5baad57aeb62</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#ctl00_responsiveBody_NotificationEditControl_divArmStay > div.span2 > span.style-checkbox > label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ctl00_responsiveBody_NotificationEditControl_divArmStay']/div/span/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Arm Stay&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>c043ec64-b8e3-40cf-b7c2-3d424672475a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>ctl00_responsiveBody_NotificationEditControl_chkArmStay</value>
+      <webElementGuid>93a44f13-4ada-49d7-8653-f8419b73122b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Arm Stay</value>
+      <webElementGuid>d57472fd-df71-41c1-b4c0-67023eccb57d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ctl00_responsiveBody_NotificationEditControl_divArmStay&quot;)/div[@class=&quot;span2&quot;]/span[@class=&quot;style-checkbox&quot;]/label[1]</value>
+      <webElementGuid>3a783c8e-15bf-4d56-957d-ea676c803c1a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Page_Notification  Alarm.com/iframe_Notifications  Alarm.com has loaded_ember180</value>
+      <webElementGuid>0c909df4-5b9f-4bc4-82c2-c88355a2b2f6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ctl00_responsiveBody_NotificationEditControl_divArmStay']/div/span/label</value>
+      <webElementGuid>6db76583-b49e-4aaa-bb70-2d2906bbf4b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Disarm'])[1]/following::label[1]</value>
+      <webElementGuid>25286357-c7ea-44d0-a2e4-0f4bd33660b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Performs any of these system actions:'])[1]/following::label[2]</value>
+      <webElementGuid>700b827c-48bf-4b4e-aae3-b4ce0f56695f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Arm Away'])[1]/preceding::label[1]</value>
+      <webElementGuid>1df9887b-0297-4029-be85-ce191814d3ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='During this time frame:'])[1]/preceding::label[2]</value>
+      <webElementGuid>c7c48cfa-4052-45ab-a796-1685bf9346df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Arm Stay']/parent::*</value>
+      <webElementGuid>ebdd1bcb-f356-48cf-9048-bc1341861052</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/span/label</value>
+      <webElementGuid>10f93334-8f5d-42d4-b159-6d9c829faa96</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Arm Stay' or . = 'Arm Stay')]</value>
+      <webElementGuid>521de7b5-38f1-426c-81bd-97fe7523b117</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

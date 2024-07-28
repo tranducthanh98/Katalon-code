@@ -17,12 +17,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-'Open browser and navigate to website which will show alert'
-WebUI.openBrowser(GlobalVariable.G_SiteURL)
+WebUI.openBrowser("https://www.alarm.test-us.adcinternal.com/login.aspx")
 
-'Accept alert when the alert is shown'
-WebUI.acceptAlert()
+WebUI.waitForPageLoad(5)
+WebUI.setText(findTestObject("Object Repository/Page_Customer Login/txtUserName"), 'fullLocator')
+WebUI.setText(findTestObject("Object Repository/Page_Customer Login/txtPassword"), 'Test12345!')
+WebUI.click(findTestObject("Object Repository/Page_Customer Login/btn_Login"))
+WebUI.delay(60)
+String currentUrl = WebUI.getUrl()
+System.out.println(currentUrl)
+WebUI.verifyMatch(currentUrl, "https://www.alarm.test-us.adcinternal.com/web/system/home", false)
 
-'Close browser'
-WebUI.closeBrowser()
+
+
+ 
+
 

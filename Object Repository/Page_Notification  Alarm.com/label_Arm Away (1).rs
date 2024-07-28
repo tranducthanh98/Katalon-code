@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Arm Away (1)</name>
+   <tag></tag>
+   <elementGuidId>2fe82d6c-8655-46e5-98e7-f8e143f8c1e1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ctl00_responsiveBody_NotificationEditControl_armingActionsBlock']/div[2]/div[3]/div/span/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Arm Away&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>86ef4f80-8fc7-44f5-9e04-9d490a81b7b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>ctl00_responsiveBody_NotificationEditControl_chkArmAway</value>
+      <webElementGuid>ef7234a6-3ab3-41ec-ab07-cb2c5882ff60</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Arm Away</value>
+      <webElementGuid>0f6a4d8a-4782-4a43-84e7-58ba33f6ea84</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ctl00_responsiveBody_NotificationEditControl_armingActionsBlock&quot;)/div[@class=&quot;row-fluid no-min-height arming-actions-list&quot;]/div[@class=&quot;row-fluid min-height-20&quot;]/div[@class=&quot;span2&quot;]/span[@class=&quot;style-checkbox&quot;]/label[1]</value>
+      <webElementGuid>321692dc-62fd-48f3-99e8-35a5add8d5fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Page_Notification  Alarm.com/iframe_Notifications  Alarm.com has loaded_ember180</value>
+      <webElementGuid>4e535ed1-3f99-42cf-bf11-843fc92ef365</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ctl00_responsiveBody_NotificationEditControl_armingActionsBlock']/div[2]/div[3]/div/span/label</value>
+      <webElementGuid>178b75ec-d3c3-485d-9038-efc7d9305794</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Arm Stay'])[1]/following::label[1]</value>
+      <webElementGuid>4b15633c-b2ed-428e-93b3-4d476c5c6041</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Disarm'])[1]/following::label[2]</value>
+      <webElementGuid>45b7764d-ba65-4009-89ee-5fa83745c49a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='During this time frame:'])[1]/preceding::label[1]</value>
+      <webElementGuid>fcec5d95-f964-4ee6-8efe-6be9c1bbb037</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='At all times'])[1]/preceding::label[1]</value>
+      <webElementGuid>81017d23-218f-43ef-926d-055bd9df0016</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Arm Away']/parent::*</value>
+      <webElementGuid>7a5ab70f-4675-4c40-9544-88db82b6cbe9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/span/label</value>
+      <webElementGuid>c683c3d3-77ce-4f2f-9ced-7f8ac952820b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Arm Away' or . = 'Arm Away')]</value>
+      <webElementGuid>bd9eade6-edc9-4b2a-bc17-8c5b45ff63c7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

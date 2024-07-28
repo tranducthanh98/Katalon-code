@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>nkclsd</description>
-   <name>New Test Case</name>
+   <description></description>
+   <name>WBS-02- Navigate to Video Tab</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>9c79f79d-d003-4d27-81c2-91b232df5dc3</testCaseGuid>
+   <testCaseGuid>7b3f2ca8-ff77-4f88-a2bb-2f180125c033</testCaseGuid>
 </TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login to customer site on TEST server</description>
+   <name>WBS-01_Login</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c5c636f5-6f1a-4161-bd72-4ab4b5bf9d3e</testCaseGuid>
+</TestCaseEntity>
