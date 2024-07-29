@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create new user</description>
+   <name>WBS-04 Create a User</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cf04e73d-df0e-4f9d-b67a-6c8e354e2573</testCaseGuid>
+</TestCaseEntity>
