@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>this TCs will change any settings camera</description>
-   <name>WBS-05 Video setting Page</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>c67af7a1-b8c9-499e-bd42-cfa5a3d6c213</testCaseGuid>
-</TestCaseEntity>
