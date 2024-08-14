@@ -26,7 +26,7 @@ WebUI.click(findTestObject("Object Repository/Page_Home  Alarm.com/p_Video"))
 
 // verify Video header display
 WebUI.verifyElementPresent(findTestObject("Object Repository/Page_Live Video  Alarm.com/h1_Video"), 0, FailureHandling.STOP_ON_FAILURE)
-WebUI.closeBrowser()
+
 
 
 
