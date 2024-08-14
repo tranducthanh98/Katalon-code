@@ -19,7 +19,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase("Test Cases/WBS-01_Login"), null)
+//WebUI.callTestCase(findTestCase("Test Cases/WBS-01_Login"), null)
 // Navigate to Video page from Home page
 WebUI.click(findTestObject("Object Repository/Page_Home  Alarm.com/p_Notifications"))
 WebUI.click(findTestObject("Object Repository/Page_Home  Alarm.com/p_Video"))

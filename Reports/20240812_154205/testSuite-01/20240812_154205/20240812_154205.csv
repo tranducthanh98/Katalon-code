@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+testSuite-01,Chrome 127.0.0.0,,,12-08-2024 15:42:13,12-08-2024 15:43:38,1m - 25.369s,FAILED
+,,,,,,,
+Test Cases/WBS-01_Login,Chrome 127.0.0.0,Login to customer site on TEST server,,12-08-2024 15:42:13,12-08-2024 15:42:55,41.962s,PASSED
+"openBrowser(""https://www.alarm.test-us.adcinternal.com/login.aspx"")",Chrome 127.0.0.0,,,12-08-2024 15:42:14,12-08-2024 15:42:21,7.579s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,12-08-2024 15:42:21,12-08-2024 15:42:21,0.076s,PASSED
+waitForPageLoad(5),Chrome 127.0.0.0,,,12-08-2024 15:42:21,12-08-2024 15:42:21,0.183s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Login/txtUserName""), ""fullLocator"")",Chrome 127.0.0.0,,,12-08-2024 15:42:21,12-08-2024 15:42:22,0.766s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Login/txtPassword""), ""Test12345!"")",Chrome 127.0.0.0,,,12-08-2024 15:42:22,12-08-2024 15:42:23,0.639s,PASSED
+"click(findTestObject(""Object Repository/Page_Customer Login/btn-Login""))",Chrome 127.0.0.0,,,12-08-2024 15:42:23,12-08-2024 15:42:35,12.320s,PASSED
+delay(20),Chrome 127.0.0.0,,,12-08-2024 15:42:35,12-08-2024 15:42:55,20.027s,PASSED
+currentUrl = getUrl(),Chrome 127.0.0.0,,,12-08-2024 15:42:55,12-08-2024 15:42:55,0.031s,PASSED
+out.println(currentUrl),Chrome 127.0.0.0,,,12-08-2024 15:42:55,12-08-2024 15:42:55,0.020s,PASSED
+"verifyMatch(currentUrl, ""https://www.alarm.test-us.adcinternal.com/web/system/home"", false)",Chrome 127.0.0.0,,,12-08-2024 15:42:55,12-08-2024 15:42:55,0.018s,PASSED
+,,,,,,,
+Test Cases/WBS-03- Create a notification,Chrome 127.0.0.0,"navigate to notification page from home page, affter create any notification",,12-08-2024 15:42:55,12-08-2024 15:43:27,31.869s,FAILED
+"click(findTestObject(""Object Repository/Page_Home  Alarm.com/p_Notifications""))",Chrome 127.0.0.0,,,12-08-2024 15:42:55,12-08-2024 15:42:56,0.381s,PASSED
+"click(findTestObject(""Object Repository/Page_Notifications  Alarm.com/button_New Notification""))",Chrome 127.0.0.0,,,12-08-2024 15:42:56,12-08-2024 15:43:27,31.411s,FAILED
+,,,,,,,
+Test Cases/WBS-04 Create a User,Chrome 127.0.0.0,Create new user,,12-08-2024 15:43:27,12-08-2024 15:43:38,11.187s,PASSED
+"click(findTestObject(""Object Repository/Page_Home  Alarm.com/p_Users""))",Chrome 127.0.0.0,,,12-08-2024 15:43:27,12-08-2024 15:43:28,0.399s,PASSED
+"click(findTestObject(""Object Repository/Page_New User  Alarm.com/button_Add user""))",Chrome 127.0.0.0,,,12-08-2024 15:43:28,12-08-2024 15:43:30,2.013s,PASSED
+"setText(findTestObject(""Object Repository/Page_New User  Alarm.com/input_First Name_ember790-first-name""), ""Automation"")",Chrome 127.0.0.0,,,12-08-2024 15:43:30,12-08-2024 15:43:31,1.046s,PASSED
+"setText(findTestObject(""Object Repository/Page_New User  Alarm.com/input_Last Name_ember790-last-name""), ""User"")",Chrome 127.0.0.0,,,12-08-2024 15:43:31,12-08-2024 15:43:31,0.636s,PASSED
+"click(findTestObject(""Object Repository/Page_New User  Alarm.com/button_Create""))",Chrome 127.0.0.0,,,12-08-2024 15:43:31,12-08-2024 15:43:32,0.303s,PASSED
+"click(findTestObject(""Object Repository/Page_Device Access  Alarm.com/span_Generate Code""))",Chrome 127.0.0.0,,,12-08-2024 15:43:32,12-08-2024 15:43:34,2.323s,PASSED
+"click(findTestObject(""Object Repository/Page_Device Access  Alarm.com/div_Panel""))",Chrome 127.0.0.0,,,12-08-2024 15:43:34,12-08-2024 15:43:35,0.830s,PASSED
+"click(findTestObject(""Object Repository/Page_Device Access  Alarm.com/button_Save""))",Chrome 127.0.0.0,,,12-08-2024 15:43:35,12-08-2024 15:43:36,0.753s,PASSED
+"verifyUserCreated = verifyElementPresent(findTestObject(""Object Repository/Page_User Profile  Alarm.com/h2_Automation User""), 10)",Chrome 127.0.0.0,,,12-08-2024 15:43:36,12-08-2024 15:43:38,2.039s,PASSED
+if (verifyUserCreated == true),Chrome 127.0.0.0,,,12-08-2024 15:43:38,12-08-2024 15:43:38,0.005s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,12-08-2024 15:43:38,12-08-2024 15:43:38,0.718s,PASSED
+,,,,,,,
+Test Cases/WBS-02- Navigate to Video Tab,Chrome 127.0.0.0,,,12-08-2024 15:43:38,12-08-2024 15:43:38,0.155s,FAILED
+"click(findTestObject(""Object Repository/Page_Home  Alarm.com/p_Notifications""))",Chrome 127.0.0.0,,,12-08-2024 15:43:38,12-08-2024 15:43:38,0.067s,FAILED

@@ -6,12 +6,12 @@
    <UUID>ef5bdcbe-d618-472c-8427-1a608d58dc16</UUID>
    <createdEdition>ENTERPRISE</createdEdition>
    <createdVersion>9.6.0</createdVersion>
-   <freeLicense>false</freeLicense>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
-   <modifiedEdition>ENTERPRISE</modifiedEdition>
-   <modifiedVersion>9.6.0</modifiedVersion>
+   <modifiedEdition>FREE</modifiedEdition>
+   <modifiedVersion>9.5.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>C:\Users\User\git\Katalon-code\Katalon-code.prj</projectFileLocation>
+   <projectFileLocation>C:\Users\User\git\katalon-code\Katalon-code.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

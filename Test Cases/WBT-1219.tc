@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Navigate to Point Central Customer Site and Create Enterprise Group Login of type Custom by entering existing Login Name</description>
+   <name>WBT-1219</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4b002845-0b44-41b9-ab9b-1eaf9102b876</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3b649ea9-5e9c-42de-b2e3-960fa8805c02</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f021224f-4b14-4e5d-9a00-2ab46b9da906</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'PCLTRAccountSetup'</defaultValue>
+      <description></description>
+      <id>3b649ea9-5e9c-42de-b2e3-960fa8805c02</id>
+      <masked>false</masked>
+      <name>LoginName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f021224f-4b14-4e5d-9a00-2ab46b9da906</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

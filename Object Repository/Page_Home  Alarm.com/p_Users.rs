@@ -6,12 +6,12 @@
    <elementGuidId>4f3ab72d-1c1d-48b0-ad1b-c362ea0d5400</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>li:nth-of-type(6) > a.elevated > p.ellipsize</value>
+         <key>XPATH</key>
+         <value>//p[text()=&quot;Users&quot;]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='app-nav']/div/nav/ul/li[6]/a/p</value>
+         <key>CSS</key>
+         <value>li:nth-of-type(6) > a.elevated > p.ellipsize</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>e2b7ef71-a16a-43e0-84a4-ff8ebf844746</webElementGuid>
+      <webElementGuid>330be0c4-07cd-4cbe-a124-5770aa5ef87b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ellipsize </value>
-      <webElementGuid>b8e0ba7d-6803-4665-ab0b-9c4a35b3b87f</webElementGuid>
+      <webElementGuid>39254492-f041-47a6-b172-a416ce442bc2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <value>
                         Users
                     </value>
-      <webElementGuid>7ea19db7-3771-4615-aa9f-e64f25015256</webElementGuid>
+      <webElementGuid>b9661bcc-e7cd-4723-bae2-aa36c50aefad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app-nav&quot;)/div[@class=&quot;nav-wrapper&quot;]/nav[1]/ul[@class=&quot;collection&quot;]/li[6]/a[@class=&quot;elevated&quot;]/p[@class=&quot;ellipsize&quot;]</value>
-      <webElementGuid>685c464d-58b4-4ce2-a011-a0dfaba27b47</webElementGuid>
+      <webElementGuid>9af6a78c-117f-4b97-a512-0db404ee42cf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app-nav']/div/nav/ul/li[6]/a/p</value>
-      <webElementGuid>d981f1d4-8076-4711-ac6b-fd39ec7dc650</webElementGuid>
+      <webElementGuid>41302112-01cc-459b-8c61-1b413f562917</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='carburetor'])[2]/following::p[6]</value>
-      <webElementGuid>ae8fccc1-c8e5-4f56-ac7c-6a2e83aa21f9</webElementGuid>
+      <webElementGuid>bedb8b1c-9a3e-4a4a-81b1-2aae49e05d58</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='fullLocator'])[1]/preceding::p[5]</value>
-      <webElementGuid>ceb55bbd-dfb8-4d49-bd59-637991318a5b</webElementGuid>
+      <webElementGuid>4572a2e8-76f9-4acd-b96e-6bfe8199d80a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Log out'])[1]/preceding::p[5]</value>
-      <webElementGuid>f3e4f891-3a56-425f-ab90-acb073e81a5e</webElementGuid>
+      <webElementGuid>45a3bb78-0ce3-4b28-9003-0e150dd26fc0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Users']/parent::*</value>
-      <webElementGuid>12d47fb1-3852-42f6-81f0-7e65588838b3</webElementGuid>
+      <webElementGuid>c08d91ef-104d-4b48-9284-1ce9d4eedb7c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[6]/a/p</value>
-      <webElementGuid>a18541c3-396d-40a0-8b40-b324c7eda476</webElementGuid>
+      <webElementGuid>d32c2add-3d26-4d3d-bfc1-96586cd95f6b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,6 +115,6 @@
                     ' or . = '
                         Users
                     ')]</value>
-      <webElementGuid>416319ae-054c-4541-9cda-f35329167da9</webElementGuid>
+      <webElementGuid>15dc0dae-0a2a-4db4-9098-bcba93dc308a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
