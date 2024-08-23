@@ -7,14 +7,17 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Automation create by Thanh' or . = 'Automation create by Thanh') and @ref_element = 'Object Repository/Page_Notifications  Alarm.com/iframe_Notifications  Alarm.com has loaded_ember179']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='ctl00_responsiveBody_notifications_notificationsDiv']/div[3]/div[3]/div/span</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,7 +32,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>1666667f-90e8-411a-804e-7558e02ea18b</webElementGuid>
+      <webElementGuid>c37969ac-f39c-4da5-b50b-9c60f3e739d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +40,7 @@
       <name>class</name>
       <type>Main</type>
       <value> name pull-left </value>
-      <webElementGuid>fbb675af-2020-49ec-b84c-095b27b0bfc5</webElementGuid>
+      <webElementGuid>8a354f9c-8581-48c2-b61a-f3ef8a4da78a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +48,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Automation create by Thanh</value>
-      <webElementGuid>0719452c-7aeb-4427-8583-cae2566b907d</webElementGuid>
+      <webElementGuid>834869fa-cbe4-4d96-a4c5-09db1f92416c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,15 +56,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;ctl00_responsiveBody_notifications_notificationsDiv&quot;)/div[@class=&quot;notification highlight-row&quot;]/div[@class=&quot;notification-description vertical-middle-outer-responsive&quot;]/div[@class=&quot;vertical-middle-inner-responsive&quot;]/span[@class=&quot;name pull-left&quot;]</value>
-      <webElementGuid>5003d02d-115c-4a3f-9b99-fccb031e5e7b</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/Page_Notifications  Alarm.com/iframe_Notifications  Alarm.com has loaded_ember179</value>
-      <webElementGuid>ca3cc5c8-1dae-4963-95ae-6769846d7ac8</webElementGuid>
+      <webElementGuid>6ac6710e-aa7d-4acf-930a-2476adcfc19e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +64,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='ctl00_responsiveBody_notifications_notificationsDiv']/div[3]/div[3]/div/span</value>
-      <webElementGuid>8e24945e-5855-4cee-8c33-d1abef86ba71</webElementGuid>
+      <webElementGuid>16685a65-4788-4b52-83e6-5205898b2f66</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +72,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Arming Event'])[2]/following::span[1]</value>
-      <webElementGuid>b68bcff9-86c7-40bc-9e49-0a6ae1f940b9</webElementGuid>
+      <webElementGuid>46cdd4c4-e1e5-434d-b0bc-ae8179cf8ffa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +80,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Anytime'])[2]/following::span[5]</value>
-      <webElementGuid>9851e598-548f-4cd8-b766-f800587d189e</webElementGuid>
+      <webElementGuid>7434ae19-8d8f-44ee-a542-93b83088d0f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='When Any User/Keyfob performs arming action Disarm'])[1]/preceding::span[1]</value>
-      <webElementGuid>09d588c8-d53b-41e8-8fa6-9fdc4d6dc139</webElementGuid>
+      <webElementGuid>93ebd280-e3cb-44a4-a307-ca5003642225</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +96,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='mation create by Thanh']/parent::*</value>
-      <webElementGuid>cef82bee-9232-46b2-bfed-13574d198af8</webElementGuid>
+      <webElementGuid>5e44349c-c761-4497-8b8a-988e19980132</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +104,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[3]/div/span</value>
-      <webElementGuid>2ba1e370-6979-486a-801e-eb68abafe92f</webElementGuid>
+      <webElementGuid>4a379151-84fb-48a6-a807-dba87cbbdd54</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +112,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Automation create by Thanh' or . = 'Automation create by Thanh')]</value>
-      <webElementGuid>9127f3c2-bbd7-4499-bd05-5d6a9aef5ace</webElementGuid>
+      <webElementGuid>0b2d5e62-c9c2-417c-8bd4-4244c3473687</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

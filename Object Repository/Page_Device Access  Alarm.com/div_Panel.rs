@@ -10,11 +10,15 @@
          <value>div.title</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Panel' or . = 'Panel')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//main[@id='app-content']/div[2]/div/div/div/section[2]/div/div/div/div/div/label/div</value>
+         <value> //*[@class='title' and text()=&quot;Panel&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -23,92 +27,60 @@
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>div</value>
-      <webElementGuid>e59baa80-2a56-4079-a6f9-24ab71b8da77</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>title</value>
-      <webElementGuid>8bbdd094-067f-4bbf-9b8c-b99af4775c2c</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Panel</value>
-      <webElementGuid>d8cd6ab4-5b72-4cda-8708-13d840a797d7</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;app-content&quot;)/div[@class=&quot;page-view&quot;]/div[@class=&quot;page-view-container use-default-styles md&quot;]/div[@class=&quot;page-view-content&quot;]/div[1]/section[2]/div[@class=&quot;fieldset-content&quot;]/div[@class=&quot;device-access-item-groups&quot;]/div[@class=&quot;device-access-item-group-wrapper device-access-toggle&quot;]/div[@class=&quot;device-access-item&quot;]/div[@class=&quot;simple-binary is-toggle&quot;]/label[1]/div[@class=&quot;title&quot;]</value>
-      <webElementGuid>598c0e89-69ef-454c-85e6-38f34daa6918</webElementGuid>
-   </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//main[@id='app-content']/div[2]/div/div/div/section[2]/div/div/div/div/div/label/div</value>
-      <webElementGuid>8561d1bb-bcfd-41df-ac95-177291654a33</webElementGuid>
+      <value></value>
+      <webElementGuid>89ae2f54-590d-44e5-8636-ed8389b8c453</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Security Panels'])[1]/following::div[4]</value>
-      <webElementGuid>81a6f6ab-1da9-40a2-9fee-3ab2d60ca909</webElementGuid>
+      <value></value>
+      <webElementGuid>b57cb4cd-b05b-447b-ace4-00dc73c810e8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Locks'])[1]/preceding::div[2]</value>
-      <webElementGuid>8e613f05-27cb-41b9-9f26-8658784411e0</webElementGuid>
+      <value></value>
+      <webElementGuid>a71a88dd-2851-4e55-a85e-1259a198e81a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Front Door'])[1]/preceding::div[2]</value>
-      <webElementGuid>fc3d07f0-306d-4417-9ca0-db9078e8642e</webElementGuid>
+      <value></value>
+      <webElementGuid>dc2d8fc6-ead3-41eb-8e56-74764daf78f1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Panel']/parent::*</value>
-      <webElementGuid>4a6ba703-53ff-4922-b51e-7c525490c881</webElementGuid>
+      <value></value>
+      <webElementGuid>cb0366b3-3b1e-4adf-89b6-8dabf68edbb8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//label/div</value>
-      <webElementGuid>2fc64613-e865-47ce-91c2-d7a178262d33</webElementGuid>
+      <value></value>
+      <webElementGuid>0823918d-1854-4653-8ae3-6eb361bd1dc3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = 'Panel' or . = 'Panel')]</value>
-      <webElementGuid>97791770-cf42-4090-bf35-4365edd7570c</webElementGuid>
+      <value></value>
+      <webElementGuid>f7904f3e-4d79-4a0f-bdac-cf11cdedd17a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

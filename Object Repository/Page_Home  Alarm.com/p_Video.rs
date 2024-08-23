@@ -10,8 +10,16 @@
          <value>li:nth-of-type(2) > a.elevated > p.ellipsize</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '
+                        Video
+                    ' or . = '
+                        Video
+                    ')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//div[@id='app-nav']/div/nav/ul/li[2]/a/p</value>
+         <value>//*[@id=&quot;app-nav&quot;]/div/nav/ul/li[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,98 +31,60 @@
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>p</value>
-      <webElementGuid>af518cfd-9df4-4653-aebd-a16e1368add3</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>ellipsize </value>
-      <webElementGuid>8c320792-f421-4f2c-ae88-14c5fd4d0da7</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>
-                        Video
-                    </value>
-      <webElementGuid>3ff4d447-70fb-403c-a5a0-af22756e233d</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;app-nav&quot;)/div[@class=&quot;nav-wrapper&quot;]/nav[1]/ul[@class=&quot;collection&quot;]/li[2]/a[@class=&quot;elevated&quot;]/p[@class=&quot;ellipsize&quot;]</value>
-      <webElementGuid>f9b0985d-eb4c-4445-8bd3-fcbcbb47dc1e</webElementGuid>
-   </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app-nav']/div/nav/ul/li[2]/a/p</value>
-      <webElementGuid>e8bdcfa6-509f-4154-bb3b-5bef64525869</webElementGuid>
+      <value></value>
+      <webElementGuid>3f32692f-9a5a-4d9f-9961-41174111a7f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='carburetor'])[2]/following::p[2]</value>
-      <webElementGuid>c1c9672f-9223-41ab-b78d-de7ddf888903</webElementGuid>
+      <value></value>
+      <webElementGuid>f44a3467-d759-4973-944a-91f315112950</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='fullLocator'])[1]/preceding::p[9]</value>
-      <webElementGuid>8cb8ffb2-a332-498b-965d-142d0ab46a8d</webElementGuid>
+      <value></value>
+      <webElementGuid>b6d044b7-641d-4388-b195-3f7b7b3a9071</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log out'])[1]/preceding::p[9]</value>
-      <webElementGuid>f6e89aca-39a6-486a-af54-6aa042339f72</webElementGuid>
+      <value></value>
+      <webElementGuid>05b3d406-b133-4e7c-8244-e83c8183957f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Video']/parent::*</value>
-      <webElementGuid>f1c35708-072b-454f-b5c5-f5b97bb7b75b</webElementGuid>
+      <value></value>
+      <webElementGuid>e7761356-2fc6-4581-a549-4165980ca300</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[2]/a/p</value>
-      <webElementGuid>0252083c-f00f-4f04-8567-d937190374d1</webElementGuid>
+      <value></value>
+      <webElementGuid>aa92ae08-e5e8-40f9-a6a2-392837ea42e3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//p[(text() = '
-                        Video
-                    ' or . = '
-                        Video
-                    ')]</value>
-      <webElementGuid>890a0897-f231-4a07-9e35-4db9197540c4</webElementGuid>
+      <value></value>
+      <webElementGuid>49922018-3a31-4792-bf64-4fac534a12b4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

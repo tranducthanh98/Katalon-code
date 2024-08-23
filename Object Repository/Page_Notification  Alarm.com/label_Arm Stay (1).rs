@@ -55,14 +55,6 @@
       <value>id(&quot;ctl00_responsiveBody_NotificationEditControl_divArmStay&quot;)/div[@class=&quot;span2&quot;]/span[@class=&quot;style-checkbox&quot;]/label[1]</value>
       <webElementGuid>3a783c8e-15bf-4d56-957d-ea676c803c1a</webElementGuid>
    </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/Page_Notification  Alarm.com/iframe_Notifications  Alarm.com has loaded_ember180</value>
-      <webElementGuid>0c909df4-5b9f-4bc4-82c2-c88355a2b2f6</webElementGuid>
-   </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>

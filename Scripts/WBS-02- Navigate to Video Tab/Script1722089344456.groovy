@@ -19,13 +19,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//WebUI.callTestCase(findTestCase("Test Cases/WBS-01_Login"), null)
+WebUI.callTestCase(findTestCase("Test Cases/WBS-01_Login"), null)
+WebUI.delay(5)
 // Navigate to Video page from Home page
-WebUI.click(findTestObject("Object Repository/Page_Home  Alarm.com/p_Notifications"))
 WebUI.click(findTestObject("Object Repository/Page_Home  Alarm.com/p_Video"))
 
 // verify Video header display
 WebUI.verifyElementPresent(findTestObject("Object Repository/Page_Live Video  Alarm.com/h1_Video"), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.closeBrowser()
 
 
 

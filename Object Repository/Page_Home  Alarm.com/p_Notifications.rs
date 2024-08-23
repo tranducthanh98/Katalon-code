@@ -10,8 +10,16 @@
          <value>li:nth-of-type(4) > a.elevated > p.ellipsize</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '
+                        Notifications
+                    ' or . = '
+                        Notifications
+                    ')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//div[@id='app-nav']/div/nav/ul/li[4]/a/p</value>
+         <value>//ul[@class=&quot;collection&quot;]//child::li[@route-id=&quot;notifications&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,98 +31,60 @@
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>p</value>
-      <webElementGuid>350c089e-5b07-4dff-a9b5-d58af1a6c4f6</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>ellipsize </value>
-      <webElementGuid>05f32c9d-2383-485c-bea8-f90f98967a87</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>
-                        Notifications
-                    </value>
-      <webElementGuid>41d8d146-fad0-4253-9ca1-98235ccad7f1</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;app-nav&quot;)/div[@class=&quot;nav-wrapper&quot;]/nav[1]/ul[@class=&quot;collection&quot;]/li[4]/a[@class=&quot;elevated&quot;]/p[@class=&quot;ellipsize&quot;]</value>
-      <webElementGuid>27c63960-3a14-4df8-b507-ab0d9df67be1</webElementGuid>
-   </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app-nav']/div/nav/ul/li[4]/a/p</value>
-      <webElementGuid>165e76bb-01bc-4f38-b4f8-54dda28b0c8c</webElementGuid>
+      <value></value>
+      <webElementGuid>e071f091-396c-4cd4-a034-9a1c1af23bf1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='carburetor'])[2]/following::p[4]</value>
-      <webElementGuid>fb826f52-3461-4408-abd8-616daf08f877</webElementGuid>
+      <value></value>
+      <webElementGuid>ba425b93-b667-4eee-a008-b7222bf029e2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='fullLocator'])[1]/preceding::p[7]</value>
-      <webElementGuid>e0775d14-2577-45f6-847f-43e6c79801bd</webElementGuid>
+      <value></value>
+      <webElementGuid>48f1c0fa-0f82-4651-bf40-92266af58008</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log out'])[1]/preceding::p[7]</value>
-      <webElementGuid>b875f867-89e7-4376-ac56-10c77a321290</webElementGuid>
+      <value></value>
+      <webElementGuid>0d300c67-47d1-4111-9ccf-0b06f01cca6e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Notifications']/parent::*</value>
-      <webElementGuid>385f22ca-52c5-4901-863a-4b336cf379b0</webElementGuid>
+      <value></value>
+      <webElementGuid>798e2022-dccb-4103-8dc6-bba3eafe8c21</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[4]/a/p</value>
-      <webElementGuid>5b1a6edd-ab90-4206-878d-f386aaffda4d</webElementGuid>
+      <value></value>
+      <webElementGuid>6265efa4-1f8c-4d93-93e6-fc154f818c8b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//p[(text() = '
-                        Notifications
-                    ' or . = '
-                        Notifications
-                    ')]</value>
-      <webElementGuid>5e7a7c4c-c8af-42ec-a608-1716c7e1e93d</webElementGuid>
+      <value></value>
+      <webElementGuid>7a57011c-59c7-4128-9d0b-aa7bbbcc5cb9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

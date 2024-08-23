@@ -24,11 +24,10 @@ WebUI.waitForPageLoad(5)
 WebUI.setText(findTestObject("Object Repository/Page_Customer Login/txtUserName"), 'fullLocator')
 WebUI.setText(findTestObject("Object Repository/Page_Customer Login/txtPassword"), 'Test12345!')
 WebUI.click(findTestObject("Object Repository/Page_Customer Login/btn-Login"))
-WebUI.delay(20)
+WebUI.delay(30)
 String currentUrl = WebUI.getUrl()
 System.out.println(currentUrl)
 WebUI.verifyMatch(currentUrl, "https://www.alarm.test-us.adcinternal.com/web/system/home", false)
-WebUI.closeBrowser()
 
 
 

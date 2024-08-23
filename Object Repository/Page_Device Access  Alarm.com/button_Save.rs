@@ -10,11 +10,15 @@
          <value>#ember398</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'confirm']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//button[@id='ember398']</value>
+         <value>//button[@class='btn btn-primary ember-view' and @type=&quot;confirm&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -23,132 +27,60 @@
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>button</value>
-      <webElementGuid>6801b35c-0a63-444f-b0d0-56695971c396</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>ember398</value>
-      <webElementGuid>966b791f-269e-4225-86e8-657a26cf73ee</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>btn btn-primary ember-view</value>
-      <webElementGuid>2c8fbd57-9805-4e0d-a9ed-2b43c451c273</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>confirm</value>
-      <webElementGuid>703badf9-d148-447d-a73d-f69bde348ee5</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>
-
-
-            Save
-            
-
-
-
-</value>
-      <webElementGuid>e47069af-9e16-4015-b65a-d8c06e578931</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;ember398&quot;)</value>
-      <webElementGuid>1509f034-498b-48f1-bfa6-c87203129ca3</webElementGuid>
-   </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='ember398']</value>
-      <webElementGuid>13c7d06b-344f-4d8b-8dc7-ac7856fdf5db</webElementGuid>
+      <value></value>
+      <webElementGuid>77159543-122d-4ed8-9f10-01e42d34de94</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//main[@id='app-content']/div[2]/div/div/div[2]/div[2]/button</value>
-      <webElementGuid>20e6e554-b0b2-4a5b-b75e-f8a0b2d2d3f8</webElementGuid>
+      <value></value>
+      <webElementGuid>a529c337-f4aa-4c5b-a53b-d0850b81bb5a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::button[1]</value>
-      <webElementGuid>108e8946-2d74-4042-8060-ce03f677da40</webElementGuid>
+      <value></value>
+      <webElementGuid>382c0ca4-3dd2-4da8-a66c-091f1fdc63ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Side Door'])[1]/following::button[2]</value>
-      <webElementGuid>f88868bf-786d-4728-b311-6d6817d978c3</webElementGuid>
+      <value></value>
+      <webElementGuid>f771583b-ac75-4589-aae7-bb6672f1b6e5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copyright © 2000-2024, Alarm.com. All rights reserved.'])[1]/preceding::button[1]</value>
-      <webElementGuid>215b974b-7198-4f2d-a03a-d92efa1efa35</webElementGuid>
+      <value></value>
+      <webElementGuid>11f8f7e2-8d8c-4b5f-8a71-20da97616f2c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div[2]/button</value>
-      <webElementGuid>86c3aaa8-49a0-4374-8426-09d1930d8e22</webElementGuid>
+      <value></value>
+      <webElementGuid>196f8501-30d7-4c15-a39e-99d9f269aaab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@id = 'ember398' and @type = 'confirm' and (text() = '
-
-
-            Save
-            
-
-
-
-' or . = '
-
-
-            Save
-            
-
-
-
-')]</value>
-      <webElementGuid>3736df60-d6f4-4f12-bf83-fc88ee0a6488</webElementGuid>
+      <value></value>
+      <webElementGuid>def0bcb7-eff2-49ee-8e54-720e8e07956a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

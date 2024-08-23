@@ -10,6 +10,14 @@
          <value>#ctl00_responsiveBody_notifications_btnAddNotification</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'ctl00_responsiveBody_notifications_btnAddNotification' and (text() = '
+            New Notification
+        ' or . = '
+            New Notification
+        ') and @ref_element = 'Object Repository/Page_Notifications  Alarm.com/iframe_Notifications  Alarm.com has loaded_ember180']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//button[@id='ctl00_responsiveBody_notifications_btnAddNotification']</value>
       </entry>
@@ -23,130 +31,60 @@
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>button</value>
-      <webElementGuid>0247dcc2-936e-492e-a95b-bc4b3946fdd2</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>ctl00_responsiveBody_notifications_btnAddNotification</value>
-      <webElementGuid>182b3fc8-d5b1-4ce5-8eab-654394b56faf</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-target</name>
-      <type>Main</type>
-      <value>#notificationCatalog</value>
-      <webElementGuid>ebe32dad-532c-44da-8556-fb3f3c9dca1d</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>btn btn-primary pull-right notification-catalog-launcher</value>
-      <webElementGuid>0eb29248-3c5c-412d-9164-2cb2f7fa2850</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-toggle</name>
-      <type>Main</type>
-      <value>modal</value>
-      <webElementGuid>06664253-322c-4d05-8b00-b06364781b1c</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>
-            New Notification
-        </value>
-      <webElementGuid>fe36afb6-a898-4f56-b595-35d8ed5c1d6d</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;ctl00_responsiveBody_notifications_btnAddNotification&quot;)</value>
-      <webElementGuid>08d5a61f-e947-4c29-b94e-d926e27a9acc</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/Page_Notifications  Alarm.com/iframe_Notifications  Alarm.com has loaded_ember180</value>
-      <webElementGuid>d780c80d-2394-4c85-b8cc-46366420aa80</webElementGuid>
-   </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='ctl00_responsiveBody_notifications_btnAddNotification']</value>
-      <webElementGuid>b6b7c7ae-d908-46a0-8044-736e169ba5dd</webElementGuid>
+      <value></value>
+      <webElementGuid>49023603-4e16-4f15-9d44-8608db8fee44</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//span[@id='ctl00_responsiveBody_notifications_spNewNotification']/button</value>
-      <webElementGuid>c2ae8b2a-3e8b-4a9d-984d-a1b9471d4d2f</webElementGuid>
+      <value></value>
+      <webElementGuid>0cb40161-1380-4e5f-bf2b-8b7d388de1d8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add'])[1]/following::button[1]</value>
-      <webElementGuid>69bec0fb-5a3a-4505-a24e-8eba7358afba</webElementGuid>
+      <value></value>
+      <webElementGuid>a2833a48-a1ed-4d69-b335-95eb25b21c08</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='+'])[1]/following::button[1]</value>
-      <webElementGuid>600e4804-3149-487c-b885-10f2ab484a0d</webElementGuid>
+      <value></value>
+      <webElementGuid>fe6c7fd1-4c5f-429a-9f20-52ecb0824fd7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Suggested'])[1]/preceding::button[1]</value>
-      <webElementGuid>6322f59f-103a-4b60-82cf-5cd45536f01d</webElementGuid>
+      <value></value>
+      <webElementGuid>57290011-7326-40c7-be92-8bbf0d76dad6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
-      <webElementGuid>eaeddaa1-524e-4226-b3e8-f030a07f1d48</webElementGuid>
+      <value></value>
+      <webElementGuid>1dd82ebe-eff0-4a73-bc72-65ec8f5af6c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@id = 'ctl00_responsiveBody_notifications_btnAddNotification' and (text() = '
-            New Notification
-        ' or . = '
-            New Notification
-        ')]</value>
-      <webElementGuid>6f35e898-4bf0-41d5-a2ee-aeb21ea277c3</webElementGuid>
+      <value></value>
+      <webElementGuid>84297735-e329-4abf-9e7c-e983e7b4039d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

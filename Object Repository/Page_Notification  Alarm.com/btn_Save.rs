@@ -10,6 +10,10 @@
          <value>#ctl00_responsiveBody_NotificationEditControl_btnSaveNotification</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit' and @name = 'ctl00$responsiveBody$NotificationEditControl$btnSaveNotification' and @id = 'ctl00_responsiveBody_NotificationEditControl_btnSaveNotification' and @ref_element = 'Object Repository/Page_Notification  Alarm.com/iframe_Notifications  Alarm.com has loaded_ember180']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@id='ctl00_responsiveBody_NotificationEditControl_btnSaveNotification']</value>
       </entry>
@@ -23,100 +27,36 @@
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>input</value>
-      <webElementGuid>4ddb158a-aea4-4ee5-9aef-cfa397d5aad0</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>d8b99de2-912f-4f69-982a-6eb4568e8b24</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>ctl00$responsiveBody$NotificationEditControl$btnSaveNotification</value>
-      <webElementGuid>2508075e-0419-4360-9867-703b8f2b6d96</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>Save</value>
-      <webElementGuid>518696be-9978-4790-adaa-808e553611e8</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>ctl00_responsiveBody_NotificationEditControl_btnSaveNotification</value>
-      <webElementGuid>173db97d-0809-40bc-b3d9-ace755494f81</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>btn btn-primary btn-save ellipsize</value>
-      <webElementGuid>304d851a-90f5-4a38-b4af-36d006cc0463</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;ctl00_responsiveBody_NotificationEditControl_btnSaveNotification&quot;)</value>
-      <webElementGuid>20ec4481-1863-4d3c-9601-8969fc39fce3</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/Page_Notification  Alarm.com/iframe_Notifications  Alarm.com has loaded_ember180</value>
-      <webElementGuid>b0965735-eda7-412c-98c5-30014ff3204b</webElementGuid>
-   </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='ctl00_responsiveBody_NotificationEditControl_btnSaveNotification']</value>
-      <webElementGuid>9039bc7d-d050-41f6-b15c-b65676413b79</webElementGuid>
+      <value></value>
+      <webElementGuid>1988822c-83d0-41ae-b7f1-5389a5a3b9f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='ctl00_responsiveBody_NotificationEditControl_legacyActionButtons']/input</value>
-      <webElementGuid>810a1a8d-a0ad-4432-a9e9-01004da5ee2a</webElementGuid>
+      <value></value>
+      <webElementGuid>57590da2-b90c-47fc-b8e9-fcfaef3810a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[78]/input</value>
-      <webElementGuid>af644882-c0f3-4007-a8bf-b6271e1a22a2</webElementGuid>
+      <value></value>
+      <webElementGuid>32d03600-ffb8-4045-be71-e2f2756dcf0d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'submit' and @name = 'ctl00$responsiveBody$NotificationEditControl$btnSaveNotification' and @id = 'ctl00_responsiveBody_NotificationEditControl_btnSaveNotification']</value>
-      <webElementGuid>2bf01380-ccee-483b-9e77-e0ef4e456cc6</webElementGuid>
+      <value></value>
+      <webElementGuid>430272ab-1cf9-4e93-b7a3-acde42c1021b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

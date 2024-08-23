@@ -7,7 +7,6 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -54,14 +53,6 @@
       <type>Main</type>
       <value>id(&quot;ctl00_responsiveBody_NotificationEditControl_armingActionsBlock&quot;)/div[@class=&quot;row-fluid no-min-height arming-actions-list&quot;]/div[@class=&quot;row-fluid min-height-20&quot;]/div[@class=&quot;span2&quot;]/span[@class=&quot;style-checkbox&quot;]/label[1]</value>
       <webElementGuid>321692dc-62fd-48f3-99e8-35a5add8d5fa</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/Page_Notification  Alarm.com/iframe_Notifications  Alarm.com has loaded_ember180</value>
-      <webElementGuid>4e535ed1-3f99-42cf-bf11-843fc92ef365</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

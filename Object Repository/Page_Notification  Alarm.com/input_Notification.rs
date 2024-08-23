@@ -87,14 +87,6 @@
       <value>id(&quot;ctl00_responsiveBody_NotificationEditControl_txtNotificationName&quot;)</value>
       <webElementGuid>4921219b-10f1-4375-888b-b8c197ab43f6</webElementGuid>
    </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/Page_Notification  Alarm.com/iframe_Notifications  Alarm.com has loaded_ember180</value>
-      <webElementGuid>40dad1d3-00f7-4a15-90c4-8b0758623999</webElementGuid>
-   </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
