@@ -52,6 +52,7 @@ if(getText=="Automation create by Thanh"){
 		System.out.println("Can't find User ")
 	}
 WebUI.takeScreenshot('D:\\abc.jpg')
+WebUI.closeBrowser()
 
 
 
