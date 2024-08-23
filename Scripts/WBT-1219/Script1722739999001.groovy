@@ -81,4 +81,3 @@ WebUI.setText(findTestObject("Object Repository/User page/Search_"), "B518_LTR_T
 	 System.out.println("User don't change to role custom");
 	  }
 
-WebUI.closeBrowser()
