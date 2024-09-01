@@ -45,18 +45,16 @@ WebUI.click(findTestObject("Object Repository/Page_Notification  Alarm.com/btn_S
 /// verify name of notification
 WebUI.waitForElementPresent(findTestObject("Object Repository/Page_Notifications  Alarm.com/input_Add_form-control user-search first"), 30)
 WebUI.setText(findTestObject("Object Repository/Page_Notifications  Alarm.com/input_Add_form-control user-search first"), "Automation create by Thanh")
-String getText = WebUI.getText(findTestObject('Object Repository/Page_Notifications  Alarm.com/getText'))
-if(getText=="Automation create by Thanh"){
-	System.out.println("Test case Passed")
-	}else{
-		System.out.println("Can't find User ")
-	}
-WebUI.takeScreenshot('D:\\abc.jpg')
- 
 
+try{
+	String getText = WebUI.getText(findTestObject('Object Repository/Page_Notifications  Alarm.com/getText'));
+    boolean  test1 = WebUI.verifyMatch(getText, "User1123", false);
+	if(test1== true){
+		System.out.println("Test case Passed")
+     }
+	}catch (Exception e){
+		 System.out.println("Can't find User :user1233 ");
+		 WebUI.takeScreenshot('D:\\Notification.jpg')
+	 }
 
-
-
-
- 
 

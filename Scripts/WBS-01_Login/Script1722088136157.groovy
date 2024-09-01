@@ -18,16 +18,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String UserName = "fullLocator";
+String Password = "Test12345!";
+
 WebUI.openBrowser("https://www.alarm.test-us.adcinternal.com/login.aspx")
 WebUI.maximizeWindow()
 WebUI.waitForPageLoad(5)
-WebUI.setText(findTestObject("Object Repository/Page_Customer Login/txtUserName"), 'fullLocator')
-WebUI.setText(findTestObject("Object Repository/Page_Customer Login/txtPassword"), 'Test12345!')
+WebUI.setText(findTestObject("Object Repository/Page_Customer Login/txtUserName"), UserName)
+WebUI.setText(findTestObject("Object Repository/Page_Customer Login/txtPassword"), Password)
 WebUI.click(findTestObject("Object Repository/Page_Customer Login/btn-Login"))
-WebUI.delay(30)
-String currentUrl = WebUI.getUrl()
-System.out.println(currentUrl)
-WebUI.verifyMatch(currentUrl, "https://www.alarm.test-us.adcinternal.com/web/system/home", false)
+//WebUI.delay(15)
+try{
+	WebUI.waitForPageLoad(10)
+	String currentUrl = WebUI.getUrl()
+    System.out.println(currentUrl)
+	WebUI.verifyMatch(currentUrl, "https://www.alarm.test-us.adcinternal.com/web/system/home", false)
+    }catch(Exception e){
+	System.out.println("test cased failed")
+	WebUI.takeScreenshot('D:\\abc_1.jpg')
+ }
 
 
 

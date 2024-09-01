@@ -80,4 +80,3 @@ WebUI.setText(findTestObject("Object Repository/User page/Search_"), "B518_LTR_T
  }else {
 	 System.out.println("User don't change to role custom");
 	  }
-
