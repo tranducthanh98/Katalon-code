@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Delete a User and verify its presence.</description>
+   <name>WBT-1502</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>aa8d42e5-89aa-42a2-a14a-1b8f582b0f8d</testCaseGuid>
+</TestCaseEntity>

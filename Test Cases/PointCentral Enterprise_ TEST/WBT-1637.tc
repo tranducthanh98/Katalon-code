@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Navigate to Point Central Customer Site and Create Enterprise Group Login of type Admisnistrator by entering existing Login Name</description>
+   <name>WBT-1637</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6c014db2-d9b7-4fb2-8f19-cbaf94f28b56</testCaseGuid>
+</TestCaseEntity>

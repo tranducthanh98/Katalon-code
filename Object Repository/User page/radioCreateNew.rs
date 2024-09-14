@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description></description>
-   <name>radio_ExistingLogin</name>
+   <description>Create new login</description>
+   <name>radioCreateNew</name>
    <tag></tag>
-   <elementGuidId>293a86a2-d3b1-481b-bc64-1b9cc6176218</elementGuidId>
+   <elementGuidId>7a47e6ae-4360-4493-b983-bcb77a9d13e4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;associateExistingOption&quot;]/span/label</value>
+         <value>//*[@id=&quot;CreateNewOption&quot;]/span/label</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

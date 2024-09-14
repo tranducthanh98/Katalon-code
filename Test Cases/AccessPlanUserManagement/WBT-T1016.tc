@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that SS Automation_SS User access_SS Automation page navigation for APUM customer is successful</description>
+   <name>WBT-T1016</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>62e3331a-1033-42a3-b83c-6eb8ed565726</testCaseGuid>
+</TestCaseEntity>

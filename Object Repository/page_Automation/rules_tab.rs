@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>radio_ExistingLogin</name>
+   <name>rules_tab</name>
    <tag></tag>
-   <elementGuidId>293a86a2-d3b1-481b-bc64-1b9cc6176218</elementGuidId>
+   <elementGuidId>d6e76181-c7c7-4204-9cae-88e29d1aff19</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;associateExistingOption&quot;]/span/label</value>
+         <value>//*[@id=&quot;app-header-sub&quot;]//descendant::a[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

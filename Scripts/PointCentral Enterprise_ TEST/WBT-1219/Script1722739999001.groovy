@@ -17,17 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 // login to custommer site
-WebUI.openBrowser("https://www.alarm.test-us.adcinternal.com/login.aspx")
-WebUI.maximizeWindow()
-WebUI.waitForPageLoad(5)
-WebUI.setText(findTestObject("Object Repository/Page_Customer Login/txtUserName"),"PCLTRAccountSetup")
-WebUI.setText(findTestObject("Object Repository/Page_Customer Login/txtPassword"), 'orange1234!')
-WebUI.click(findTestObject("Object Repository/Page_Customer Login/btn-Login"))
-WebUI.delay(10)
-String currentUrl = WebUI.getUrl()
-System.out.println(currentUrl)
-WebUI.verifyMatch(currentUrl, "https://www.alarm.test-us.adcinternal.com/web/system/enterprise/locations/summary", false)
-System.out.println("User login successfully")
+WebUI.callTestCase(findTestCase('Test Cases/PointCentral Enterprise_ TEST/login_PointCentral account'), null)
 
 // Navigate to User Page > Manage login
 WebUI.click(findTestObject("Object Repository/Page_Home  Alarm.com/p_Users"))

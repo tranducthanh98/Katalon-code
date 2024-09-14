@@ -20,19 +20,24 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase("Test Cases/WBS-01_Login"), null)
-WebUI.click(findTestObject("Object Repository/Page_Home  Alarm.com/p_Notifications"))
+
+try{WebUI.click(findTestObject("Object Repository/Page_Home  Alarm.com/p_Notifications"))
 WebUI.switchToFrame(findTestObject("Object Repository/User page/iframe_locator/iframe_locator"), 10)
  
 // click on create new notification 
 WebUI.click(findTestObject("Object Repository/Page_Notifications  Alarm.com/button_New Notification")) 
 WebUI.waitForElementVisible(findTestObject("Object Repository/Page_Notifications  Alarm.com/div_Arming Event"), 30)
 WebUI.click(findTestObject("Object Repository/Page_Notifications  Alarm.com/div_Arming Event")) 
+
 // clear text in input field
 WebUI.clearText(findTestObject("Object Repository/Page_Notifications  Alarm.com/input_Name_notication"))
+
  //enter name of notification
 WebUI.setText(findTestObject("Object Repository/Page_Notifications  Alarm.com/input_Name_notication"), "Automation create by Thanh")
+
 // select system actions : Arm stay / Arm Away/ DisArm
 WebUI.check(findTestObject("Object Repository/Page_Notification  Alarm.com/label_Disarm (1)"))
+
 // *** Add Recipients ***
 WebUI.click(findTestObject("Object Repository/Page_Notification  Alarm.com/span_Add"))
 WebUI.delay(5)
@@ -46,15 +51,16 @@ WebUI.click(findTestObject("Object Repository/Page_Notification  Alarm.com/btn_S
 WebUI.waitForElementPresent(findTestObject("Object Repository/Page_Notifications  Alarm.com/input_Add_form-control user-search first"), 30)
 WebUI.setText(findTestObject("Object Repository/Page_Notifications  Alarm.com/input_Add_form-control user-search first"), "Automation create by Thanh")
 
-try{
 	String getText = WebUI.getText(findTestObject('Object Repository/Page_Notifications  Alarm.com/getText'));
-    boolean  test1 = WebUI.verifyMatch(getText, "User1123", false);
-	if(test1== true){
+    boolean  compareUserName = WebUI.verifyMatch(getText, "User1123", false);
+	if(compareUserName == true){
 		System.out.println("Test case Passed")
      }
-	}catch (Exception e){
+}catch (Exception e){
 		 System.out.println("Can't find User :user1233 ");
-		 WebUI.takeScreenshot('D:\\Notification.jpg')
-	 }
+		 WebUI.takeScreenshot('D:\\image for Automation report\\Notification.jpg')
+}
+WebUI.closeBrowser()
+ 
 
 

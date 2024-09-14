@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>radio_ExistingLogin</name>
+   <name>automation_title</name>
    <tag></tag>
-   <elementGuidId>293a86a2-d3b1-481b-bc64-1b9cc6176218</elementGuidId>
+   <elementGuidId>b1e2a323-ae03-4a29-9e2b-01f6f2cd3777</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;associateExistingOption&quot;]/span/label</value>
+         <value>//h1[text()='Automation' and @class=&quot;main-title&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

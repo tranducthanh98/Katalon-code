@@ -1,5 +1,5 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -17,29 +17,18 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+// login to Pointcentral account
+WebUI.callTestCase(findTestCase('Test Cases/PointCentral Enterprise_ TEST/login_PointCentral account'), null)
+// navigate User tab
+WebUI.click(findTestObject('Object Repository/Page_Home  Alarm.com/p_Users'))
+//WebUI.switchToFrame(findTestObject('Object Repository/User page/iframe_locator/iframe_locator'), 10)
+WebUI.delay(3)
+WebUI.click(findTestObject('Object Repository/Page_New User  Alarm.com/button_Add user'))
+// enter user information
+WebUI.setText(findTestObject("Object Repository/Page_New User  Alarm.com/input_FirstName"),"Automation ")
+WebUI.setText(findTestObject('Object Repository/Page_New User  Alarm.com/input_LastName'), 'User')
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Page_New User  Alarm.com/dropDown_menu_userType'),'Manager', false)
+WebUI.click(findTestObject('Object Repository/Page_New User  Alarm.com/button_Create'))
 
-String UserName = "fullLocator";
-String Password = "Test12345!";
-
-try{
-	WebUI.openBrowser("https://www.alarm.test-us.adcinternal.com/login.aspx")
-	WebUI.maximizeWindow()
-	WebUI.waitForPageLoad(5)
-	WebUI.setText(findTestObject("Object Repository/Page_Customer Login/txtUserName"), UserName)
-	WebUI.setText(findTestObject("Object Repository/Page_Customer Login/txtPassword"), Password)
-	WebUI.click(findTestObject("Object Repository/Page_Customer Login/btn-Login"))
-	WebUI.delay(10)
-	String currentUrl = WebUI.getUrl()
-    System.out.println(currentUrl)
-	WebUI.verifyMatch(currentUrl, "https://www.alarm.test-us.adcinternal.com/web/system/home", false)
-    }catch(Exception e)
-	{
-	System.out.println("test cased failed")
-	WebUI.takeScreenshot('D:\\image for Automation report\\loginPage.jpg')
-	}
-
-
-
- 
 
 
